@@ -136,11 +136,11 @@ const char* htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
   </head>
   <body class="noselect" align="center" style="background-color:white">
      
-    <!--h2 style="color: teal;text-align:center;">Wi-Fi Camera &#128663; Control</h2-->
+    <h2 style="color: teal;text-align:center;">Wi-Fi Camera &#128663; Control</h2>
     
     <table id="mainTable" style="width:400px;margin:auto;table-layout:fixed" CELLSPACING=10>
       <tr>
-        <img id="cameraImage" src="" style="width:400px;height:250px"></td>
+        <img id="cameraImage" src="https://raw.githubusercontent.com/un0038998/CameraCar/950f99caf30153ec4f40a67a17c124c7582fd68d/Diagrams/Camera%20Car.png" style="width:400px;height:250px"></td>
       </tr> 
       <tr>
         <td></td>
@@ -157,7 +157,7 @@ const char* htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
         <td class="button" ontouchstart='sendButtonInput("MoveCar","2")' ontouchend='sendButtonInput("MoveCar","0")'><span class="arrows" >&#8681;</span></td>
         <td></td>
       </tr>
-      <tr/><tr/>
+      </tr></tr>
       <tr>
         <td style="text-align:left"><b>Speed:</b></td>
         <td colspan=2>
